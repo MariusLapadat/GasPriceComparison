@@ -1,7 +1,7 @@
 !Chromedriver.exe required in project directory for the project to work
 !Chromedriver version needs to be equal to chrome version for the project to work
 
-  This repository contains a personal project that uses data from 2 sources, an API and webscraped data, to compare petrol prices between 2 Romanian cities.
+  This repository contains a personal project that uses data from 2 sources, an API and webscraped data, to compare gas prices between 2 Romanian cities.
 
   For the implementation, the city inserted in the first textbox uses API calls to get the prices of all the gas stations in the specified city. The first API call gets the code for the searched city, the second API call returns all the gas stations
 with their informations. Afterwards, the code processes the information and extracts only the gas station name and gas price, deletes entries if there are duplicate lines, and creates a .csv file named "produse_combustibili_{input_text1}_API.csv" .
